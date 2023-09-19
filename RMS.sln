@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS", "RMS\RMS.csproj", "{5AA6A433-C01A-4966-8320-02546C72AC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{21632B1A-0671-4085-A5D8-B470F0294D9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA6A433-C01A-4966-8320-02546C72AC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA6A433-C01A-4966-8320-02546C72AC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA6A433-C01A-4966-8320-02546C72AC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA6A433-C01A-4966-8320-02546C72AC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21632B1A-0671-4085-A5D8-B470F0294D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21632B1A-0671-4085-A5D8-B470F0294D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21632B1A-0671-4085-A5D8-B470F0294D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21632B1A-0671-4085-A5D8-B470F0294D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E4740CB-9337-4AE8-A06D-A82A67248690}
+	EndGlobalSection
+EndGlobal
