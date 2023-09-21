@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace DataAccess
 {
-    internal class Role
+    public enum Status
     {
-
-        public int Id { get; set; }
-        public string Name { get; set; }
+        Master = 1,
+        Senior,
+        Jounior
 
     }
+
 }

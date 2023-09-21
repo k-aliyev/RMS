@@ -12,6 +12,12 @@ namespace DataAccess
         public string UserName { get; set; }
         public string Password { get; set; }
         public bool IsActive { get; set; }
-        public int Status { get; set; }
+        public Status Status { get; set; }
+
+        // Has-a relationships (include both, mapper?): 
+        // class relationship
+        public Role Role {get; set;}
+        // database realationship 
+        public int RoleId {get; set;}
     }
 }
