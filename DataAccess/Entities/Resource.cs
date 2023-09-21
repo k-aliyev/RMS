@@ -11,7 +11,7 @@ namespace DataAccess
         public int Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public double Score { get; set; }
+        public decimal Score { get; set; } //floatm (don't use it) or decimal can be used
         public DateTime Date { get; set; }
     }
 }
