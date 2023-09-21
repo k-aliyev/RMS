@@ -11,7 +11,8 @@ namespace DataAccess
         public int Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public decimal Score { get; set; } //floatm (don't use it) or decimal can be used
-        public DateTime Date { get; set; }
+        public decimal Score { get; set; } // float (don't use it) or double can be used
+        public DateTime? Date { get; set; } // you can use Nullable<DateTime> istead
+        public List<UserResource> UserResource { get; set; }
     }
 }

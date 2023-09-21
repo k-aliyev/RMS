@@ -1,8 +1,12 @@
-﻿using System;
+﻿#nullable disable
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+
 
 namespace DataAccess
 {
@@ -19,5 +23,6 @@ namespace DataAccess
         public Role Role {get; set;}
         // database realationship 
         public int RoleId {get; set;}
+        public List<UserResource> UserResource { get; set; }
     }
 }
