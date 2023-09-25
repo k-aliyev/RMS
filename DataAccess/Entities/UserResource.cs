@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess
+namespace DataAccess.Entities
 {
-    internal class UserResource
+    public class UserResource
     {
         [Key]  // Attribute for primary key
         [Column(Order = 0)] // Order of the primary key

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess
+namespace DataAccess.Entities
 {
-    internal class Role
+    public class Role
     {
 
         public int Id { get; set; }

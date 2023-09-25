@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 
 
-namespace DataAccess
+namespace DataAccess.Entities
 {
-    internal class User
+    public class User
     {
         public int Id { get; set; }
         public string UserName { get; set; }

@@ -1,6 +1,15 @@
+using DataAccess;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+#region IoC (inversion of Control) Container
+builder.Services.AddDbContext<Db>(options => options.UseMySQL("server=127.0.0.1; database=BlogDB;user id=std;password=;"));
+
+#endregion
+
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
