@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 #region IoC (inversion of Control) Container
-builder.Services.AddDbContext<Db>(options => options.UseMySQL("server=localhost;database=library;user=root;password=mysqlpassword"));
+builder.Services.AddDbContext<Db>(options => options.UseMySQL("server=localhost;database=library;user=root;password="));
 
 #endregion
 
